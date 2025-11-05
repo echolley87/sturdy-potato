@@ -1,4 +1,39 @@
-index.html
-style.css
-script.js
-images/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Screen</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0078d7; /* Microsoft blue */
+      color: white;
+      font-family: Consolas, monospace;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .emoji {
+      font-size: 6rem;
+      margin-bottom: 1rem;
+    }
+    .small {
+      font-size: 0.9rem;
+      margin-top: 2rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="emoji">:(</div>
+  <div>
+    Your PC ran into a problem and needs to restart.<br />
+    We’re just collecting some error info, and then we’ll restart for you.
+  </div>
+  <div class="small">0% complete</div>
+</body>
+</html>
